@@ -52,3 +52,5 @@ spec:
             name: mypage-service
             port:
               number: 80
+annotations:
+  metallb.universe.tf/address-pool: config

@@ -29,7 +29,7 @@ spec:
             matchLabels:
               app: tomcat
       containers:
-      - image: ehddlf5709/tomcat:v1.0
+      - image: ehddlf5709/tomcatset:v10.0
         name: tomcat
         ports:
         - containerPort: 8080

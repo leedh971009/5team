@@ -364,7 +364,7 @@ spec:
     app.kubernetes.io/instance: ingress-nginx
     app.kubernetes.io/name: ingress-nginx
   type: LoadBalancer
-  clusterIP: 10.100.100.206
+  clusterIP: 10.100.0.206
   externalIPs:
   - 192.168.56.100
   - 192.168.56.101

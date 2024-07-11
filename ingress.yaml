@@ -2,8 +2,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ingress
-  annotations:
-    kubernetes.io/ingress.class: nginx
 spec:
   ingressClassName: nginx
   rules:
@@ -52,5 +50,3 @@ spec:
             name: mypage-service
             port:
               number: 80
-annotations:
-  metallb.universe.tf/address-pool: config

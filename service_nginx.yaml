@@ -4,7 +4,7 @@ metadata:
   name: index-service
 spec:
   type: NodePort
-  clusterIP: 10.100.100.201
+  clusterIP: 10.100.0.201
   selector:
     app: nginx
     name: index
@@ -20,7 +20,7 @@ metadata:
   name: login-service
 spec:
   type: NodePort
-  clusterIP: 10.100.100.202
+  clusterIP: 10.100.0.202
   selector:
     app: nginx
     name: login
@@ -36,7 +36,7 @@ metadata:
   name: join-service
 spec:
   type: NodePort
-  clusterIP: 10.100.100.203
+  clusterIP: 10.100.0.203
   selector:
     app: nginx
     name: join
@@ -52,7 +52,7 @@ metadata:
   name: menu-service
 spec:
   type: NodePort
-  clusterIP: 10.100.100.204
+  clusterIP: 10.100.0.204
   selector:
     app: nginx
     name: menu
@@ -68,7 +68,7 @@ metadata:
   name: mypage-service
 spec:
   type: NodePort
-  clusterIP: 10.100.100.205
+  clusterIP: 10.100.0.205
   selector:
     app: nginx
     name: mypage

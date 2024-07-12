@@ -29,7 +29,7 @@ spec:
             matchLabels:
               app: nginx
       containers:
-      - image: ehddlf5709/nginx:v3.0
+      - image: ehddlf5709/nginx:v4.0
         name: index
         ports:
         - containerPort: 80
@@ -88,7 +88,7 @@ spec:
             matchLabels:
               app: nginx
       containers:
-      - image: ehddlf5709/nginx:v3.0
+      - image: ehddlf5709/nginx:v4.0
         name: login
         ports:
         - containerPort: 80
@@ -148,7 +148,7 @@ spec:
             matchLabels:
               app: nginx
       containers:
-      - image: ehddlf5709/nginx:v3.0
+      - image: ehddlf5709/nginx:v4.0
         name: join
         ports:
         - containerPort: 80
@@ -208,7 +208,7 @@ spec:
             matchLabels:
               app: nginx
       containers:
-      - image: ehddlf5709/nginx:v3.0
+      - image: ehddlf5709/nginx:v4.0
         name: menu
         ports:
         - containerPort: 80
@@ -268,7 +268,7 @@ spec:
             matchLabels:
               app: nginx
       containers:
-      - image: ehddlf5709/nginx:v3.0
+      - image: ehddlf5709/nginx:v4.0
         name: mypage
         ports:
         - containerPort: 80

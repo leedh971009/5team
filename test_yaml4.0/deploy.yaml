@@ -341,8 +341,8 @@ metadata:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
     app.kubernetes.io/version: 1.10.1
-  name: www-ehddlf5709-shop
-  namespace: site
+  name: ingress-nginx-controller
+  namespace: ingress-nginx
 spec:
   ipFamilies:
   - IPv4

@@ -29,7 +29,7 @@ spec:
             matchLabels:
               app: tomcat
       containers:
-      - image: sinhye/tomcatpor:v1.0
+      - image: sinhye/tomcatpro:v1.0
         name: tomcat
         ports:
         - containerPort: 8080

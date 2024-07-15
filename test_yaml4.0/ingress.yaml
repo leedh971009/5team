@@ -43,10 +43,3 @@ spec:
             name: mypage-service
             port:
               number: 80
-      - path: /mypage
-        pathType: Prefix
-        backend:
-          service:
-            name: mypage-service
-            port:
-              number: 80

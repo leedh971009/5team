@@ -366,8 +366,7 @@ spec:
   type: LoadBalancer
   clusterIP: 10.100.0.206
   externalIPs:
-  - 10.100.0.207
-  - 10.100.0.208
+  - 118.235.13.231
 
 ---
 apiVersion: v1

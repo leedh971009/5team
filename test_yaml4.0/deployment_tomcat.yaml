@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: tomcat
   annotations:
-    kubernetes.io/change-cause: first_version
+    kubernetes.io/change-cause: second_version
 spec:
   replicas: 3
   selector:
@@ -29,7 +29,7 @@ spec:
             matchLabels:
               app: tomcat
       containers:
-      - image: sinhye/tomcat:v3.0
+      - image: sinhye/tomcat:v4.0
         name: tomcat
         ports:
         - containerPort: 8080

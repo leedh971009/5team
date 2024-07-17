@@ -29,12 +29,12 @@ spec:
             matchLabels:
               app: tomcat
       containers:
-      - image: sinhye/tomcatpro:v1.0
+      - image: sinhye/tomcat:v1.0
         name: tomcat
         ports:
         - containerPort: 8080
         volumeMounts:
-        - mountPath: "/opt/tomcat/webapps"
+        - mountPath: "/opt/tomcat/webapps/ROOT"
           name: html
         resources:
           limits:

@@ -34,7 +34,7 @@ spec:
         ports:
         - containerPort: 8080
         volumeMounts:
-        - mountPath: "/opt/tomcat/webapps/ROOT/data"
+        - mountPath: "/opt/tomcat/webapps/ROOT"
           name: html
         resources:
           limits:

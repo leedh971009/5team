@@ -33,9 +33,9 @@ spec:
         name: tomcat
         ports:
         - containerPort: 8080
-        #volumeMounts:
-        #- mountPath: "/opt/tomcat/webapps"
-        #  name: html
+        volumeMounts:
+        - mountPath: "/opt/tomcat/webapps"
+          name: html
         resources:
           limits:
             cpu: 200m
@@ -52,8 +52,8 @@ spec:
           timeoutSeconds: 1
           successThreshold: 1
           failureThreshold: 3
-      #volumes:
-      #  - name: html
-       #   persistentVolumeClaim:
-       #     claimName: pvc-tomcat
+      volumes:
+        - name: html
+          persistentVolumeClaim:
+            claimName: pvc-tomcat
 
